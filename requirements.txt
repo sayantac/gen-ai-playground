@@ -1,42 +1,68 @@
-ipywidgets==8.1.2
-matplotlib==3.8.3
-numpy==1.26.4
-pandas==2.2.0
-torch==2.2.0
-torchvision==0.17.0
-tqdm>=4.66.3
-openai>=1.26.0
-python-dotenv==1.0.0
-fastapi>=0.111.0
-uvicorn==0.27.1
-semantic-kernel>=1.1.1
-langchain>=0.2.5
-langchain-openai==0.1.8
-beautifulsoup4==4.12.3
-faiss-cpu==1.8.0
-tiktoken>=0.7.0
-qdrant-client>=1.9.0
-transformers>=4.38.0
-gradio==4.36.1
-fastcore==1.5.29
-llama-index>=0.10.13
-atlassian-python-api==3.41.10
-docarray==0.40.0
-langchain-experimental>=0.0.61
-numexpr==2.9.0
-wikipedia==1.4.0
-langchainhub==0.1.18
-pypdf==4.2.0
-yt-dlp~=2023.11.16
-pydub==0.25.1
-chromadb==0.5.0
-lark>=1.1.9
-scikit-learn>=1.5.0
-panel>=1.4.4
+# Core data science and ML libraries
+ipywidgets>=8.1.5
+matplotlib>=3.9.2
+numpy>=2.1.2
+pandas>=2.2.3
+torch>=2.4.1
+torchvision>=0.19.1
+scikit-learn>=1.5.2
+tqdm>=4.66.5
+
+# OpenAI and AI/ML APIs
+openai>=1.51.0
+anthropic>=0.39.0
+tiktoken>=0.8.0
+transformers>=4.46.2
+
+# LangChain ecosystem
+langchain>=0.3.4
+langchain-openai>=0.2.4
+langchain-experimental>=0.3.2
+langchainhub>=0.1.21
+langgraph>=0.2.40
+
+# LlamaIndex
+llama-index>=0.11.17
+
+# Semantic Kernel
+semantic-kernel>=1.11.0
+
+# Vector databases and search
+faiss-cpu>=1.9.0
+qdrant-client>=1.12.0
+chromadb>=0.5.18
+
+# Web and API frameworks
+fastapi>=0.115.4
+uvicorn>=0.32.0
+gradio>=5.6.0
+
+# Utilities and data processing
+python-dotenv>=1.0.1
+beautifulsoup4>=4.12.3
+pypdf>=5.1.0
+pydub>=0.25.1
+wikipedia>=1.4.0
+yt-dlp>=2024.10.7
+
+# Development and visualization
+panel>=1.5.4
 jupyter_bokeh>=4.0.5
-pydantic>=2.7.4
-langgraph>=0.1.3
-pygraphviz>=1.13
-duckduckgo-search>=6.1.7
-tavily-python>=0.3.3
+pydantic>=2.9.2
+docarray>=0.41.0
+fastcore>=1.7.19
+
+# Data validation and parsing
+lark>=1.2.2
+numexpr>=2.10.1
+
+# External APIs and integrations
+atlassian-python-api>=3.41.14
+duckduckgo-search>=6.3.1
+tavily-python>=0.5.0
+
+# Graph visualization
+pygraphviz>=1.14
+
+# Database
 aiosqlite>=0.20.0

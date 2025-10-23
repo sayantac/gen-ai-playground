@@ -10,7 +10,7 @@ kernel = sk.Kernel()
 api_key, org_id = sk.openai_settings_from_dot_env()
 kernel.add_text_completion_service("chat-gpt", OpenAIChatCompletion("gpt-3.5-turbo", api_key, org_id))
 
-with open(Path.cwd() / "data" / "order_big.txt") as f:
+with open(Path.cwd() / "data" / "unstructured" / "documents" / "order_big.txt") as f:
     order = f.read()
     f.seek(0)
     order_lines = f.readlines()

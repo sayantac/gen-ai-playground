@@ -5,7 +5,7 @@ from langchain_community.vectorstores import Qdrant
 from langchain.document_loaders.csv_loader import CSVLoader
 
 loader = CSVLoader(
-    file_path="./data/dataset_small.csv", source_column="title")
+    file_path="./data/structured/dataset_small.csv", source_column="title")
 
 data = loader.load()
 

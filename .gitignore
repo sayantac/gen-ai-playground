@@ -2,7 +2,35 @@ notebooks/data
 notebooks/cifar_net.pth
 .ipynb_checkpoints/
 __pycache__
+
+# IDE/Editor settings (personal preference)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment files
 *.env
+.env
+.env.local
+.env.*.local
+
+# Virtual environments
 *.venv
-playgroundenv
-data/chroma
+.venv/
+venv/
+env/
+ENV/
+playgroundenv/
+gen-ai-playground-env/
+
+# Python cache
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Generated data
+data/generated/chroma/
