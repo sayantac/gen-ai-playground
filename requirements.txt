@@ -20,12 +20,17 @@ langchain-openai>=0.2.4
 langchain-experimental>=0.3.2
 langchainhub>=0.1.21
 langgraph>=0.2.40
+langchain_community>=0.3.16
 
 # LlamaIndex
 llama-index>=0.11.17
 
 # Semantic Kernel
 semantic-kernel>=1.11.0
+
+# CrewAI
+crewai>=0.95.0
+crewai_tools>=0.17.0
 
 # Vector databases and search
 faiss-cpu>=1.9.0
