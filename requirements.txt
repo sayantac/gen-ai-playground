@@ -31,6 +31,7 @@ semantic-kernel>=1.11.0
 # CrewAI
 crewai>=0.95.0
 crewai_tools>=0.17.0
+litellm>=1.0.0
 
 # Vector databases and search
 faiss-cpu>=1.9.0
