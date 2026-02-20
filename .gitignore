@@ -3,6 +3,9 @@ notebooks/cifar_net.pth
 .ipynb_checkpoints/
 __pycache__
 
+# macOS
+.DS_Store
+
 # IDE/Editor settings (personal preference)
 .vscode/
 .idea/
@@ -34,3 +37,4 @@ __pycache__/
 
 # Generated data
 data/generated/chroma/
+data/kg/dump/
